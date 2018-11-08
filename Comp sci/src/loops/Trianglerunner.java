@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Trianglerunner {
 
+	
 	public static void main(String[] args) {
 		Scanner keyboard = new Scanner(System.in);
-
+		
 		for(int i=0 ;i<3; i++)
 		{
 			System.out.print("Enter side A ::  ");
@@ -17,8 +18,7 @@ public class Trianglerunner {
 
 			System.out.print("Enter side C ::  ");
 			int c = keyboard.nextInt();
-
-			trianglelab test = new trianglelab();
+			trianglelab test = new trianglelab(a, b, c);	
 			test.setSides(a, b, c);
 			test.calcPerimeter();
 			test.calcArea();

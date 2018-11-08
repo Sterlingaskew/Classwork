@@ -18,11 +18,20 @@ public class trianglelab {
 		theArea = 0;
 	}
 
-	int[] setSides(int a, int b, int c) 
+	public trianglelab(int a, int b, int c)
+	{
+		sideA=a;
+		sideB=b;
+		sideC=c;
+	}
+
+
+	public void setSides(int a, int b, int c)
 	{ 
-		this.sideA=a;this.sideB=b;this.sideC=c;
-		int[] abc = {a,b,c};
-		return abc;	
+		sideA=a;
+		sideB=b;
+		sideC=c;
+
 	}
 
 	public void calcPerimeter() 
