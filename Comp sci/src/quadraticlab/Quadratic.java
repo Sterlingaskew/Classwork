@@ -5,10 +5,6 @@ package quadraticlab;
 //period 4 -
 //Quadratic -
 
-import java.util.Scanner;
-import static java.lang.System.*;
-import static java.lang.Math.*;
-
 public class Quadratic {
 	private int a, b, c;
 	private double rootOne;
@@ -40,14 +36,7 @@ public class Quadratic {
 	}
 
 	public String toString() {
-		return "\n\n" + "rootOne :: " + rootOne + ":\nrootTwo :: " + rootTwo;
+		return "\n\n" + "rootOne :: " + String.format("%.3f", rootOne) + "\nrootTwo :: " + String.format("%.3f",rootTwo);
 	}
 
-	public void print() {
-		System.out.print("\n\nrootOne :: ");
-		System.out.printf("%.2f", rootOne);
-		System.out.print("\nrootTWo ::" );
-		System.out.printf("%.2f", rootTwo);
-
-	}
 }

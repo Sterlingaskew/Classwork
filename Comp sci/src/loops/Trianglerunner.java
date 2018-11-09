@@ -6,6 +6,7 @@ public class Trianglerunner {
 
 	
 	public static void main(String[] args) {
+		@SuppressWarnings("resource")
 		Scanner keyboard = new Scanner(System.in);
 		
 		for(int i=0 ;i<3; i++)

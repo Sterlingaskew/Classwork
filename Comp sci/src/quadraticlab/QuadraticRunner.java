@@ -1,16 +1,17 @@
 package quadraticlab;
 
-	//Name -
+	//Name - 
 	//Date -
 
-	import java.util.Scanner;
+	import java.util.Scanner; 
 	import static java.lang.System.*;
-	import static java.lang.Math.*; 
+	 
 
 	public class QuadraticRunner
 	{
 		public static void main( String[] args )
 		{
+			@SuppressWarnings("resource")
 			Scanner keyboard = new Scanner( System.in );
 			out.print("Enter a :: ");
 			int quadA = keyboard.nextInt();
