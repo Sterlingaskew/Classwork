@@ -20,10 +20,11 @@ public class trianglelab {
 
 	public trianglelab(int a, int b, int c)
 	{
-		sideA=a;
-		sideB=b;
-		sideC=c;
+		setSides(a, b, c);
+		perimeter = 0;
+		theArea = 0;
 	}
+	
 
 
 	public void setSides(int a, int b, int c)
@@ -51,7 +52,6 @@ public class trianglelab {
 	}
 
 	public void print() {
-		System.out.println(sideA+"  "+sideB+"  "+sideC);
-		System.out.printf("Area == %.2f\n",theArea);
+		System.out.printf("\nArea == %.2f\n",theArea);
 	}
 }

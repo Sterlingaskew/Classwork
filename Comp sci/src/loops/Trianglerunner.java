@@ -23,6 +23,7 @@ public class Trianglerunner {
 			test.setSides(a, b, c);
 			test.calcPerimeter();
 			test.calcArea();
+			System.out.print(test);
 			test.print();
 			
 		}
