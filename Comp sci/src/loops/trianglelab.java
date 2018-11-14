@@ -23,6 +23,10 @@ public class trianglelab {
 		setSides(a, b, c);
 		perimeter = 0;
 		theArea = 0;
+		
+		sideA=a;
+		sideB=b;
+		sideC=c;
 	}
 	
 
