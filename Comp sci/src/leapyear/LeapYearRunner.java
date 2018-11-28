@@ -11,9 +11,6 @@ public class LeapYearRunner
 		System.out.print("Enter a year :: ");
 		int year = keyboard.nextInt();
 		System.out.println(year+(LeapYear.isLeapYear(year)==true? " is":" IS NOT")+" a leap year");
-		
-
-	
 	}
 }
 }

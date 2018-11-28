@@ -1,44 +1,44 @@
 package distance;
 
-public class Distance {
-	private int xOne, yOne, xTwo, yTwo;
-	private double distance;
+
+public class Distance
+{
+	private int x1,y1,x2,y2;
 
 	public Distance()
 	{
-		
+		setCoordinates(0,0,0,0);
 	}
 
-	public Distance(int x1, int y1, int x2, int y2) 
+	public Distance(int xOne, int yOne, int xTwo, int yTwo)
 	{
-		xOne=x1;
-		yOne=y1;
-		xTwo=x2;
-		yTwo=y2;
-		
+		setCoordinates(xOne,yOne,xTwo,yTwo);
+
 	}
 
-	public void setCoordinates(int x1, int y1, int x2, int y2) 
+	public void setCoordinates(int xOne, int yOne, int xTwo, int yTwo)
 	{
-		xOne=x1;
-		yOne=y1;
-		xTwo=x2;
-		yTwo=y2;
+		x1=xOne;
+		y1=yOne;
+		x2=xTwo;
+		y2=yTwo;
+
 	}
 
-	public void calcDistance() 
+	public String determineClosest( )
 	{
-		distance = Math.sqrt(Math.pow(xTwo-xOne, 2)+Math.pow(yTwo-yOne, 2));
-		
+		double distanceA = 0.0, distanceB = 0.0;
+		//String result="";
+		distanceA=Math.sqrt(Math.pow(x1, 2)+Math.pow(y1, 2));
+		distanceB=Math.sqrt(Math.pow(x2, 2)+Math.pow(y2, 2));
+		if (distanceA<distanceB) 
+			return"A is closer to (0,0).";
+			return"B is closer to (0,0).";
+	
 	}
-
-	public double getDistance() 
+	
+	public String toString()
 	{
-		return distance;
+		return "";
 	}
-
-	public String toString() {
-		return "distance == "+String.format("%.3f",distance);
-	}
-
 }
