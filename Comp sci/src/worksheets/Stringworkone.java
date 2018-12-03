@@ -20,13 +20,13 @@ public class Stringworkone {
 
 	System.out.println( one.charAt( 6 ) );		// LINE 7 w
 
-	System.out.println( one.substring(0,4) );		// LINE 8 sambe
+	System.out.println( one.substring(0,4) );		// LINE 8 samb
 
 	System.out.println( one.substring(5) );		// LINE 9 nwilearethebest
 
 	System.out.println( one.substring(9) );		// LINE 10 earethebest
 
-	System.out.println( one.substring(2,7));	// LINE 11 mbenwi
+	System.out.println( one.substring(2,7));	// LINE 11 mbenw
 
 	System.out.println( one.indexOf("abc") );	// LINE 12 -1
 
@@ -34,7 +34,7 @@ public class Stringworkone {
 
 	System.out.println( one.indexOf("hij") );	// LINE 14 -1
 
-	System.out.println( two.indexOf("54"));		// LINE 15 6
+	System.out.println( two.indexOf("54"));		// LINE 15 5
 
 	System.out.println( two.indexOf("24"));		// LINE 16 -1
 
