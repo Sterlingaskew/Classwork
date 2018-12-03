@@ -31,6 +31,8 @@ public class Distance
 		//String result="";
 		distanceA=Math.sqrt(Math.pow(x1, 2)+Math.pow(y1, 2));
 		distanceB=Math.sqrt(Math.pow(x2, 2)+Math.pow(y2, 2));
+		if (distanceA==distanceB)
+			return"A and B are euqal distances to (0,0)";
 		if (distanceA<distanceB) 
 			return"A is closer to (0,0).";
 			return"B is closer to (0,0).";
