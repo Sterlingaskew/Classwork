@@ -10,6 +10,7 @@ public class EndsWithRunner
 		System.out.println( StringUtilities.endsWith("alligator", "all"));
 		System.out.println( StringUtilities.endsWith("apluscompsci", "sci"));
 		System.out.println( StringUtilities.endsWith("apluscompsci", "comp"));
+		System.out.println(StringUtilities.endsWith("aaaaa", "bbbbbb"));
 		
 		
 		//test cases				
